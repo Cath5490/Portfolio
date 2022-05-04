@@ -61,23 +61,20 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   font-weight: bold;
-  margin: 10px 100px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
 }
 
 .button-link {
-  display: block;
   color: white;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   font-weight: bold;
-  margin: 10px 120px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-align: center;
+  margin: 30px;
 }
 
 .button-link:hover,
