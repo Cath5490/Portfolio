@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #add2c9;
-  --text-color: #155263;
+  --primary-color: #c8dff6;
+  --text-color: #092a47;
   --accent-color: #50c4ed;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -14,31 +14,29 @@ h3 {
 
 h1 {
   font-size: 55px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   color: var(--text-color);
 }
-
-h3 {
-  font-size: 30px;
-  font-family: "poppins", sans-serif;
-  font-weight: bold;
-  color: var(--text-color);
-}
-
 h2 {
   font-size: 24px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto Mono", monospace;
   color: var(--text-color);
   opacity: 80%;
   font-weight: bold;
+}
+h3 {
+  font-size: 22px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 p {
   padding: 30px;
   font-size: 18px;
   line-height: 1.5;
-  font-family: "poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: var(--text-color);
 }
 
@@ -48,33 +46,30 @@ body {
 
 .hero {
   text-align: center;
+  line-height: 2;
   background-color: #f6f5f5;
   margin: 10px;
-  padding: 50px;
-}
-
-.project-photo {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #add2c9;
-  border-radius: 4px;
-  box-shadow: var(--box-shadow);
-  margin-bottom: 40px;
+  padding: 200px 0px 50px 0px;
+  background-image: url("../media/Shard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact-link {
-  color: white;
-  background: var(--primary-color);
+  color: var(--text-color);
+  background: #e7f1fe;
   box-shadow: var(--box-shadow);
   font-weight: bold;
+  opacity: 80%;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
 }
 
 .button-link {
-  color: white;
-  background: var(--primary-color);
+  color: var(--text-color);
+  background: #e7f1fe;
+  opacity: 80%;
   box-shadow: var(--box-shadow);
   font-weight: bold;
   border-radius: 4px;
@@ -83,9 +78,20 @@ body {
   margin: 30px;
 }
 
-.button-link:hover,
+.button-link:hover {
+  color: white;
+}
 .contact-link:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
+}
+
+.project-photo {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 40px;
 }
 
 .headshot {
@@ -94,6 +100,9 @@ body {
   border: 2px solid #add2c9;
   border-radius: 7px;
   box-shadow: var(--box-shadow);
+}
+
+.hero-img {
 }
 
 @media (max-width: 576px) {
