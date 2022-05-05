@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #c8dff6;
+  --primary-color: #e7f1fe;
   --text-color: #092a47;
   --accent-color: #50c4ed;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -15,7 +15,7 @@ h3 {
 h1 {
   font-size: 55px;
   font-family: "Roboto Mono", monospace;
-  font-weight: bold;
+  font-weight: medium;
   color: var(--text-color);
 }
 h2 {
@@ -24,6 +24,7 @@ h2 {
   color: var(--text-color);
   opacity: 80%;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 h3 {
   font-size: 22px;
@@ -46,7 +47,7 @@ body {
 
 .hero {
   text-align: center;
-  line-height: 2;
+
   background-color: #f6f5f5;
   margin: 10px;
   padding: 200px 0px 50px 0px;
@@ -63,7 +64,9 @@ body {
   opacity: 80%;
   border-radius: 4px;
   padding: 20px 15px;
+  margin: 10px;
   text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .button-link {
@@ -75,14 +78,15 @@ body {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  margin: 30px;
+
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .button-link:hover {
-  color: white;
+  color: var(--accent-color);
 }
 .contact-link:hover {
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .project-photo {
@@ -102,9 +106,9 @@ body {
   box-shadow: var(--box-shadow);
 }
 
-.hero-img {
+.about-section {
+  padding: 20px;
 }
-
 @media (max-width: 576px) {
   h1 {
     font-size: 45px;
