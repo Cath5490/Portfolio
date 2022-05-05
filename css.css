@@ -15,8 +15,9 @@ h3 {
 h1 {
   font-size: 55px;
   font-family: "Roboto Mono", monospace;
-  font-weight: medium;
+  font-weight: 300;
   color: var(--text-color);
+  opacity: 90%;
 }
 h2 {
   font-size: 24px;
@@ -24,6 +25,7 @@ h2 {
   color: var(--text-color);
   opacity: 80%;
   font-weight: bold;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 h3 {
@@ -41,16 +43,12 @@ p {
   color: var(--text-color);
 }
 
-body {
-  margin: 10px;
-}
-
 .hero {
   text-align: center;
 
   background-color: #f6f5f5;
   margin: 10px;
-  padding: 200px 0px 50px 0px;
+  padding: 215px 0px 50px 0px;
   background-image: url("../media/Shard.jpg");
   background-size: cover;
   background-repeat: no-repeat;
