@@ -5,6 +5,47 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--text-color);
+  opacity: 80%;
+  font-weight: bold;
+}
+
+p {
+  padding: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "poppins", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  margin: 10px;
+}
+
 .hero {
   text-align: center;
   background-color: #f6f5f5;
@@ -19,42 +60,6 @@
   border-radius: 4px;
   box-shadow: var(--box-shadow);
   margin-bottom: 40px;
-}
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-}
-
-h1 {
-  font-size: 80px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  color: var(--text-color);
-}
-
-h2 {
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  color: var(--text-color);
-}
-
-h3 {
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-  color: var(--text-color);
-  opacity: 80%;
-  font-weight: bold;
-}
-
-p {
-  padding: 30px;
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: "Times New Roman", Times, serif;
-  color: var(--text-color);
 }
 
 .contact-link {
@@ -81,6 +86,14 @@ p {
 .button-link:hover,
 .contact-link:hover {
   color: var(--text-color);
+}
+
+.headshot {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #add2c9;
+  border-radius: 7px;
+  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 576px) {
