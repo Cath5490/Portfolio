@@ -54,7 +54,7 @@ p {
   background-repeat: no-repeat;
 }
 
-.contact-link {
+.contact-button {
   color: var(--text-color);
   background: #e7f1fe;
   box-shadow: var(--box-shadow);
@@ -78,6 +78,10 @@ p {
   text-decoration: none;
 
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.contact-links {
+  text-decoration: none;
 }
 
 .button-link:hover {
