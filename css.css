@@ -43,9 +43,39 @@ p {
   color: var(--text-color);
 }
 
+a {
+  transition: all 100ms ease-in-out;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: medium;
+  color: var(--text-color);
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
 .hero {
   text-align: center;
-
   background-color: #f6f5f5;
   margin: 10px;
   padding: 215px 0px 50px 0px;
@@ -84,10 +114,9 @@ p {
   text-decoration: none;
 }
 
-.button-link:hover {
-  color: var(--accent-color);
-}
-.contact-link:hover {
+.button-link:hover,
+.contact-links:hover,
+nav li.active a {
   color: var(--accent-color);
 }
 
