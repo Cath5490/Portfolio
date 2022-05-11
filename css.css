@@ -88,7 +88,8 @@ footer a {
   transition: all 100ms ease-in-out;
 }
 
-footer a :hover {
+footer a :hover,
+.contact-links:hover {
   color: var(--text-color);
 }
 
@@ -130,10 +131,10 @@ footer a :hover {
 
 .contact-links {
   text-decoration: none;
+  color: var(--accent-color);
 }
 
 .button-link:hover,
-.contact-links:hover,
 .contact-button:hover,
 nav li.active a {
   color: var(--accent-color);
