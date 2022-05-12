@@ -142,7 +142,6 @@ nav li.active a {
 
 .project-photo {
   max-width: 100%;
-  height: auto;
   border: 2px solid var(--primary-color);
   border-radius: 4px;
   box-shadow: var(--box-shadow);
@@ -151,9 +150,7 @@ nav li.active a {
 
 .headshot {
   max-width: 100%;
-  height: auto;
-  border: 2px solid #add2c9;
-  border-radius: 7px;
+  border-radius: 30px;
   box-shadow: var(--box-shadow);
 }
 
